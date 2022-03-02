@@ -19,6 +19,7 @@ namespace Part_3__Windows_Forms
 
         private void bntSubmit_Click(object sender, EventArgs e)
         {
+            //The part that makes it work!
             string name = txtInput.Text;
             lblMessage.Text = "Greetings " + name;
         }
